@@ -1,0 +1,29 @@
+{
+  "name": "dbms-project",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "project",
+    "dbms"
+  ],
+  "license": "ISC",
+  "author": "vishwas",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch ./index.js"
+  },
+  "dependencies": {
+    "@clerk/express": "^1.7.46",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3",
+    "undici-types": "^7.16.0"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
